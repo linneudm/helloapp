@@ -25,7 +25,7 @@ SECRET_KEY = 'fz7c4b1=x!ie#armxk6j4m*8ai3t@d2nw&gh5e=h15b&0h_t+5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['165.227.229.210']
 
 
 # Application definition
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'hello.core',
+    'hello.core'
 ]
 
 MIDDLEWARE = [
@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'hello.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
-'''
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -95,7 +95,7 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
+'''
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
